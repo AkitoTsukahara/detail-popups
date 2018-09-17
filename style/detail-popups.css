@@ -1,0 +1,22 @@
+.target_wrapper .popups{
+  display: none;
+}
+.target_wrapper.active .popups{
+  display: block;
+}
+.target_wrapper{
+  display: contents;
+}
+.detail_target{
+  text-decoration: underline;
+  color: #0077cc;
+}
+.popups{
+  border: 1px solid #000;
+  padding: 10px;
+  font-size: 14px;
+  margin: 10px 0;
+}
+.detail_target:before{
+  content: ">>  ";
+}
